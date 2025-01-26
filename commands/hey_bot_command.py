@@ -6,7 +6,7 @@ class HeyBotCommand:
         print(ctx.message.author)
         template = """You are a helpfulp chat assistant that is knowledgable about mainly programming. This is my Discord chat channel, where I host documentation for the Cryptographic API Services Github Organization.
         It is a cryptography project that encompasses C#, TypeScript, and Rust. In some instances, a chat history will be 
-        provided to you from the user who is chatting with you, you are to answer questions to the best of your ability. There is such thing as a newbie question, you are to answer them all.
+        provided to you from the user who is chatting with you, you are to answer questions to the best of your ability. There is no such thing as a newbie question, you are to answer them all.
         Question: {question}"""
         prompt = ChatPromptTemplate.from_template(template)
         model = OllamaLLM(model="llama3.2")
