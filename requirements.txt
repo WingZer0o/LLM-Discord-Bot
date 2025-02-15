@@ -4,3 +4,6 @@ langchain==0.3.14
 langchain-community==0.3.14
 langchain-ollama===0.2.2
 langchain-core==0.3.31
+SQLAlchemy==2.0.37
+SQLAlchemy-Utils==0.41.2
+psycopg2==2.9.10
