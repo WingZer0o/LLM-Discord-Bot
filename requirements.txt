@@ -7,3 +7,5 @@ langchain-core==0.3.31
 SQLAlchemy==2.0.37
 SQLAlchemy-Utils==0.41.2
 psycopg2==2.9.10
+GitPython==3.1.44
+faiss-cpu==1.10.0
